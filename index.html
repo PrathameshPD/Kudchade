@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<?php 
+$connect = mysqli_connect("localhost", "root", "", "vigilant_goa");
+?>
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUDCHADE</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>   
+<body>
+    	
+<!-- header section starts  -->
+<header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo">   
+        <span>KUD</span>CHADE</a>      
+    <nav class="navbar">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#gallery">GALLERY</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+</header>
+
+<!-- home section starts  -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>KUDCHADE IS WAITING FOR YOU</h3>
+        <p>GOODLUCK</p>
+    </div>
+    <div class="video-container">
+        <video src="images/vigigoa.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+<!-- home section ends -->
+   
+<!-- about section starts  -->
+<section class="about" id="about">
+    <h1 class="heading">
+        <span>A</span>
+        <span>B</span>
+        <span>O</span>
+        <span>U</span>
+        <span>T</span>
+    </h1> 
+    <section class ="packages-ceo">     
+        <div class="packages-ceo">
+        <img src="Images/ceo.jpg">
+        <div>
+            <p>I am committed to gleaning valuable insights from complicated datasets so that decisions may be made with knowledge. I am pursuing an MSc in Data Science with a solid foundation in statistical analysis and machine learning. enthusiastic in using data-driven methods to address practical issues across a variety of fields.</p>
+            <h2>Prathamesh Dessai (Founder & CEO)</h2>
+            </div>
+        </div> 
+        <div class="packages-ceo">
+        <img src="Images/cof.jpg">
+        <div>
+            <p>I'm an MBA student studying marketing, and I want to improve businesses by fusing creativity and data-driven insights. a track record of success in creating and implementing powerful marketing strategies for company expansion.</p>
+            <h2>Sumit Patil (Co-Founder)</h2>
+            </div>
+        </div>
+    </section> 
+</section>
+<!-- about section ends -->
+   
+<!-- gallery section starts  -->
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/img1.jpg" alt="">
+            <div class="content">
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/img2.jpg" alt="">
+            <div class="content">
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/img9.jpg" alt="">
+            <div class="content">
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/img4.jpg" alt="">
+            <div class="content">
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/img5.jpg" alt="">
+            <div class="content">
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/img6.jpg" alt="">
+            <div class="content">
+            </div>
+        </div>      
+        <div class="box">
+            <img src="images/img7.png" alt="">
+            <div class="content">
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/img88.jpg" alt="">
+            <div class="content">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- gallery section ends -->
+        
+<!-- contact section starts  -->
+<section class="contact" id="contact"> 
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="images/pero.png" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="TEXT" placeholder="NAME">
+                <input type="EMAIL" placeholder="EMAIL">
+            </div>
+            <div class="inputBox">
+                <input type="NUMBER" placeholder="NUMBER">
+                <input type="TEXT" placeholder="SUBJECT">
+            </div>
+            <textarea placeholder="MESSAGE" name="" id="" cols="30" rows="10"></textarea>
+            <input type="SUBMIT" class="btn" value="SEND MESSAGE">
+        </form>
+    </div>   
+</section>
+<!-- contact section ends -->
+
+<!-- footer section  -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Quotes</h3>
+             <p>Prathamesh Dessai - "Our goal was to accomplish one goal and do that really well"</p>
+             <p>Sumit Patil - "Be yourself"</p>
+        </div>
+        <div class="box">
+            <h3>branch location</h3>
+            <p>Curchorem goa</p>
+    <h1 class="credit"> Created by <span>DYNASTY</span> </h1>
+        </div>
+    </div>
+</section>  
+<script src="scrip.js"></script>
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+</body>
+</html>
